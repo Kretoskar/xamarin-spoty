@@ -16,5 +16,10 @@ namespace Spoty.View
         {
             InitializeComponent();
         }
+
+        private void spotsListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+        }
     }
 }

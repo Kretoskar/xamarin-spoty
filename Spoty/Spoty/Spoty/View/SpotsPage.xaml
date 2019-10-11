@@ -6,11 +6,12 @@
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotsPage"
              BackgroundColor="{StaticResource backgroundColor}">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="SPOTS"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ListView x:Name="spotsListView"
+                  ItemSelected="spotsListView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="SPOT"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
