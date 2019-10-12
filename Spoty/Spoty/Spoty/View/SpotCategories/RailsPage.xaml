@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotCategories.RailsPage">
-    <ListView x:Name="railsListView">
+    <ListView x:Name="railsListView" RowHeight="70">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -22,13 +22,16 @@
                         <Image Source="{Binding Slug}"
                                Grid.RowSpan="2"
                                Aspect="AspectFit"
-                               Margin="2"/>
+                               Margin="5"/>
                         <Label Grid.Column="1"
                                Text="{Binding Name}"
-                               FontAttributes="Bold"/>
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               Margin="5,5,5,0"/>
                         <Label Grid.Column="1"
                                Grid.Row="1"
-                               Text="{Binding ShortDesc}"/>
+                               Text="{Binding ShortDesc}"
+                               Margin="5,0,5,5"/>
                     </Grid>
                 </ViewCell>
             </DataTemplate>
