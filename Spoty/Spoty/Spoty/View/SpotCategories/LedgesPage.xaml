@@ -19,9 +19,9 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
 
-                        <Label Text="PHOTO"
+                        <Image Source="{Binding Slug}"
                                Grid.RowSpan="2"
-                               VerticalTextAlignment="Center"/>
+                               Aspect="AspectFit"/>
                         <Label Grid.Column="1"
                                Text="{Binding Name}"
                                FontAttributes="Bold"/>

@@ -9,7 +9,7 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid BackgroundColor="White">
+                    <Grid BackgroundColor="Blue">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
                             <ColumnDefinition Width="*"/>
@@ -19,9 +19,9 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
 
-                        <Label Text="PHOTO"
+                        <Image Source="handrail_krakowska.jpg"
                                Grid.RowSpan="2"
-                               VerticalTextAlignment="Center"/>
+                               Aspect="AspectFit"/>
                         <Label Grid.Column="1"
                                Text="{Binding Name}"
                                FontAttributes="Bold"/>

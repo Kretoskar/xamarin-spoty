@@ -75,7 +75,7 @@ namespace Spoty.ModeI
             {
                 Name = "Pomnik mickiewicza",
                 Categories = SpotCategory.Gaps,
-                Slug = "pomnik_mickiewicza",
+                Slug = "pomnik_mickiewicza.jpg",
                 ShortDesc = "Schody, krawężniki i murek",
                 LongDesc = "Schody 1- 4, nawoskowany krawężnik i marmurowy murek. Nawierzchnia - marmurowe płyty",
                 Latitude = 50.0374781f,
@@ -85,7 +85,7 @@ namespace Spoty.ModeI
             {
                 Name = "Niebieska siódemka",
                 Categories = SpotCategory.Gaps,
-                Slug = "niebieska_siodemka",
+                Slug = "niebieska_siodemka.jpg",
                 ShortDesc = "7 schodów, handrail z dużym nachyleniem",
                 LongDesc = "7 schodów, najazd z płytek, odjazd na kostkę. Handrail z dużym nachyleniem.",
                 Latitude = 50.042335f,
@@ -95,7 +95,7 @@ namespace Spoty.ModeI
             {
                 Name = "Handrail Krakowska",
                 Categories = SpotCategory.Rails,
-                Slug = "handrail_krakowska",
+                Slug = "handrail_krakowska.jpg",
                 ShortDesc = "Handrail z możliwością naskoku od boku.",
                 LongDesc = "Handrail z możliwością naskoku od boku.",
                 Latitude = 50.045358f,
@@ -105,7 +105,7 @@ namespace Spoty.ModeI
             {
                 Name = "Park inwalidów wojennych",
                 Categories = SpotCategory.Others,
-                Slug = "park_inwalidow_wojennych",
+                Slug = "park_inwalidow_wojennych.jpg",
                 ShortDesc = "Betonowe fale, hubby",
                 LongDesc = "Betonowe, wąskie fale. Hubby na obie strony z najazdem z kostki.",
                 Latitude = 50.022063f,
