@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Spoty.View
+namespace Spoty.View.SpotCategories
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SpotsPage : TabbedPage
+    public partial class RailsPage : ContentPage
     {
-        public SpotsPage()
+        public RailsPage()
         {
             InitializeComponent();
-        }
-
-        private void spotsListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-
         }
     }
 }
