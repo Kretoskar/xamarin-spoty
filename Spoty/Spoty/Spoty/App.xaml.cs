@@ -1,6 +1,9 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Spoty.ModeI;
+using System.Collections.Generic;
 
 namespace Spoty
 {
@@ -22,6 +25,17 @@ namespace Spoty
             MainPage = new MainPage();
 
             DatabasaLocation = databaseLocation;
+
+            using (SQLiteConnection conn = new SQLiteConnection(DatabasaLocation))
+            {
+                DummySpotsData dummySpotsData = new DummySpotsData();
+                foreach (Spot spot in dummySpotsData.Spots)
+                {
+                    conn.CreateTable<Spot>();
+                    conn.Insert(spot);
+                }
+                string connstr = conn.ToString();
+            }
         }
 
 
