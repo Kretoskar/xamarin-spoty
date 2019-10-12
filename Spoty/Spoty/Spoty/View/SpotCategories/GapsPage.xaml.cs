@@ -26,8 +26,14 @@ namespace Spoty.View.SpotCategories
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
             {
                 conn.CreateTable<Spot>();
-                var posts = conn.Table<Spot>().ToList();
-                gapsListView.ItemsSource = posts;
+                var spots = conn.Table<Spot>().ToList();
+                List<Spot> gapPosts = new List<Spot>();
+                foreach (Spot spot in spots)
+                {
+                    if (spot.Categories == SpotCategory.Gaps)
+                        gapPosts.Add(spot);
+                }
+                gapsListView.ItemsSource = gapPosts;
             }
         }
     }

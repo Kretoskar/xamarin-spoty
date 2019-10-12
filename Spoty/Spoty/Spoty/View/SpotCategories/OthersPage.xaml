@@ -5,11 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotCategories.OthersPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Inne"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ListView x:Name="othersListView">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

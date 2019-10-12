@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Spoty.ModeI;
+using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,24 @@ namespace Spoty.View.SpotCategories
         public RailsPage()
         {
             InitializeComponent();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
+            {
+                conn.CreateTable<Spot>();
+                var spots = conn.Table<Spot>().ToList();
+                List<Spot> railSpots = new List<Spot>();
+                foreach (Spot spot in spots)
+                {
+                    if (spot.Categories == SpotCategory.Rails)
+                        railSpots.Add(spot);
+                }
+                railsListView.ItemsSource = railSpots;
+            }
         }
     }
 }
