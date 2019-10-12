@@ -9,7 +9,7 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid BackgroundColor="White">
+                    <Grid BackgroundColor="LightGray">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
                             <ColumnDefinition Width="*"/>
@@ -21,7 +21,8 @@
 
                         <Image Source="{Binding Slug}"
                                Grid.RowSpan="2"
-                               Aspect="AspectFit"/>
+                               Aspect="AspectFit"
+                               Margin="2"/>
                         <Label Grid.Column="1"
                                Text="{Binding Name}"
                                FontAttributes="Bold"/>

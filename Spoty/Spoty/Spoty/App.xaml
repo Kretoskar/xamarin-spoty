@@ -7,7 +7,7 @@
              x:Class="Spoty.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="backgroundColor">#484848</Color>
+            <Color x:Key="backgroundColor">#FFD3D3D3</Color>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
