@@ -111,7 +111,16 @@ namespace Spoty.ModeI
                 Latitude = 50.022063f,
                 Longitude = 21.987076f
             });
-
+            Spots.Add(new Spot
+            {
+                Name = "3 maja",
+                Categories = SpotCategory.Ledges,
+                Slug = "trzy_maja.jpg",
+                ShortDesc = "Betonowe murki, dobry flat",
+                LongDesc = "Betonowe murki z drewnianą ławką, kicker na końcu. Dobry flat",
+                Latitude = 50.035935f,
+                Longitude = 22.001026f
+            });
         }
     }
 }
