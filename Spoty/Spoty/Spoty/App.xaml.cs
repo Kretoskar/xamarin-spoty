@@ -6,12 +6,24 @@ namespace Spoty
 {
     public partial class App : Application
     {
+        public static string DatabasaLocation = string.Empty;
+
         public App()
         {
             InitializeComponent();
 
             MainPage = new MainPage();
         }
+
+        public App(string databaseLocation) 
+        {
+            InitializeComponent();
+
+            MainPage = new MainPage();
+
+            DatabasaLocation = databaseLocation;
+        }
+
 
         protected override void OnStart()
         {
