@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace Spoty.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SpotsPage : ContentPage
+    public partial class SpotsPage : TabbedPage
     {
         public SpotsPage()
         {
