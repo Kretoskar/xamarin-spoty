@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Spoty.ModeI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,13 @@ namespace Spoty.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SpotDetailsPage : ContentPage
     {
-        public SpotDetailsPage()
+        public Spot ClickedSpot { get; set; }
+
+        public SpotDetailsPage(Spot spot)
         {
+            ClickedSpot = spot;
             InitializeComponent();
+            stackLayout.BindingContext = spot;
         }
     }
 }

@@ -6,13 +6,19 @@
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotDetailsPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Image Aspect="AspectFit"
+        <StackLayout x:Name="stackLayout">
+            <Image Source="{Binding Slug}"
+                   Aspect="AspectFit"
                    HorizontalOptions="FillAndExpand"
-                   HeightRequest="150"
-                   Margin="50"/>
-            <Label />
-            <Label />
+                   HeightRequest="300"
+                   Margin="50,50,50,25"/>
+            <Label Text="{Binding Name}"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding LongDesc}"
+                   FontSize="16"
+                   HorizontalTextAlignment="Center"/>
             <Button Text="Nawiguj"
                     Margin="50"/>
         </StackLayout>

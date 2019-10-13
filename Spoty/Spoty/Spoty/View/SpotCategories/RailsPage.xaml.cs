@@ -36,5 +36,11 @@ namespace Spoty.View.SpotCategories
                 railsListView.ItemsSource = railSpots;
             }
         }
+
+        private void railsListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Spot spot = railsListView.SelectedItem as Spot;
+            Navigation.PushModalAsync(new SpotDetailsPage(spot));
+        }
     }
 }

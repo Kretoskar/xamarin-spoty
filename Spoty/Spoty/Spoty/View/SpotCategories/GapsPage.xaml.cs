@@ -40,7 +40,7 @@ namespace Spoty.View.SpotCategories
         private void gapsListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Spot spot = gapsListView.SelectedItem as Spot;
-            Navigation.PushModalAsync(new SpotDetailsPage());
+            Navigation.PushModalAsync(new SpotDetailsPage(spot));
         }
     }
 }

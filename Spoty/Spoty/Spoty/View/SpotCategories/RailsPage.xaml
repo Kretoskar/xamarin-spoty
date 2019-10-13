@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotCategories.RailsPage">
-    <ListView x:Name="railsListView" RowHeight="70">
+    <ListView x:Name="railsListView" RowHeight="70" ItemTapped="railsListView_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>

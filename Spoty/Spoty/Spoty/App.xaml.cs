@@ -17,7 +17,7 @@ namespace Spoty
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new MainPage();
         }
 
         public App(string databaseLocation) 

@@ -36,5 +36,11 @@ namespace Spoty.View.SpotCategories
                 othersListView.ItemsSource = otherSpots;
             }
         }
+
+        private void othersListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Spot spot = othersListView.SelectedItem as Spot;
+            Navigation.PushModalAsync(new SpotDetailsPage(spot));
+        }
     }
 }
