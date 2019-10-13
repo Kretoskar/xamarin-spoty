@@ -36,5 +36,11 @@ namespace Spoty.View.SpotCategories
                 ledgesListView.ItemsSource = ledgesSpots;
             }
         }
+
+        private void ledgesListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Spot spot = ledgesListView.SelectedItem as Spot;
+            Navigation.PushModalAsync(new SpotDetailsPage(spot));
+        }
     }
 }

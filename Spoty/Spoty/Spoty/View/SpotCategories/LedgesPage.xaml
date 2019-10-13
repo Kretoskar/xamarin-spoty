@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotCategories.LedgesPage">
-    <ListView x:Name="ledgesListView" RowHeight="70">
+    <ListView x:Name="ledgesListView" RowHeight="70" ItemTapped="ledgesListView_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>

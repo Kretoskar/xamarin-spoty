@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 using Spoty.ModeI;
 using System.Collections.Generic;
 using System.IO;
+using Spoty.View.SpotCategories;
 
 namespace Spoty
 {
