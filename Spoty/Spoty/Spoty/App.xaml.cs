@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 using Spoty.ModeI;
 using System.Collections.Generic;
 using System.IO;
+using Spoty.View.SpotCategories;
 
 namespace Spoty
 {
@@ -16,7 +17,7 @@ namespace Spoty
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         public App(string databaseLocation) 
