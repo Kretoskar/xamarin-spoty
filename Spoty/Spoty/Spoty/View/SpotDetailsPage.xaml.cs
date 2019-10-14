@@ -44,7 +44,7 @@ namespace Spoty.View
         public async Task NavigateToClickedSpot()
         {
             var location = new Location(ClickedSpot.Latitude, ClickedSpot.Longitude);
-            var options = new MapLaunchOptions { Name = ClickedSpot.Name };
+            var options = new MapLaunchOptions { Name = ClickedSpot.Name, NavigationMode = NavigationMode.Driving };
             await Map.OpenAsync(location, options);
         }
     }
