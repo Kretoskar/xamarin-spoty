@@ -14,6 +14,9 @@ namespace Spoty.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapPage : ContentPage
     {
+        private const float rzeszowLatitude = 50.041187f;
+        private const float rzeszowLongitude = 21.999121f;
+        private const float mapSpan = .2f;
         public MapPage()
         {
             InitializeComponent();
@@ -28,6 +31,7 @@ namespace Spoty.View
                 conn.CreateTable<Spot>();
                 var spots = conn.Table<Spot>().ToList();
                 DisplayInMap(spots);
+                MoveMap();
             }
         }
 
@@ -51,6 +55,16 @@ namespace Spoty.View
                 catch (NullReferenceException nre) { }
                 catch (Exception ex) { }
             }
+        }
+
+        /// <summary>
+        /// Center map on Rzeszów
+        /// </summary>
+        private void MoveMap()
+        {
+            var center = new Xamarin.Forms.Maps.Position(rzeszowLatitude, rzeszowLongitude);
+            var span = new Xamarin.Forms.Maps.MapSpan(center, mapSpan, mapSpan);
+            locationsMap.MoveToRegion(span);
         }
     }
 }
