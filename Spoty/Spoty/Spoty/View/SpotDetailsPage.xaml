@@ -6,22 +6,52 @@
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotDetailsPage">
     <ContentPage.Content>
-        <StackLayout x:Name="stackLayout">
+        <Grid x:Name="stackLayout" 
+                     BackgroundColor="{StaticResource backgroundColor}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="150"/>
+            </Grid.RowDefinitions>
+            <Frame Grid.ColumnSpan="2" 
+                   Margin="15,15,15,0" 
+                   BackgroundColor="{StaticResource spotDetailsFrames}">
+                <Label Text="{Binding Name}"
+                   FontAttributes="Bold"
+                   FontSize="25"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            </Frame>
             <Image Source="{Binding Slug}"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="2"
                    Aspect="AspectFit"
                    HorizontalOptions="FillAndExpand"
-                   HeightRequest="300"
-                   Margin="50,50,50,25"/>
-            <Label Text="{Binding Name}"
-                   FontAttributes="Bold"
-                   FontSize="20"
-                   HorizontalTextAlignment="Center"/>
-            <Label Text="{Binding LongDesc}"
+                   VerticalOptions="FillAndExpand"
+                   Margin="15,0,15,0"/>
+            <Frame Margin="15,0,15,15" 
+                   Grid.Row="2" 
+                   BackgroundColor="{StaticResource spotDetailsFrames}"
+                   Grid.ColumnSpan="2">
+                <Label Text="{Binding LongDesc}"
                    FontSize="16"
-                   HorizontalTextAlignment="Center"/>
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            </Frame>
             <Button Clicked="Button_Clicked"
-                    Text="Nawiguj"
-                    Margin="50"/>
-        </StackLayout>
+                    ImageSource="ic_action_map_dark.png"
+                    Grid.ColumnSpan="2"
+                    Grid.Row="2"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Margin="0,0,15,15"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

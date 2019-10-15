@@ -9,7 +9,7 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid BackgroundColor="LightGray">
+                    <Grid BackgroundColor="{StaticResource backgroundColor}">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
                             <ColumnDefinition Width="*"/>
