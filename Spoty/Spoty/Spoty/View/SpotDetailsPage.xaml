@@ -19,7 +19,8 @@
             <Label Text="{Binding LongDesc}"
                    FontSize="16"
                    HorizontalTextAlignment="Center"/>
-            <Button Text="Nawiguj"
+            <Button Clicked="Button_Clicked"
+                    Text="Nawiguj"
                     Margin="50"/>
         </StackLayout>
     </ContentPage.Content>
