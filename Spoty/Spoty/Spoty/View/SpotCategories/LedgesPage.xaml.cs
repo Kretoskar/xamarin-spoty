@@ -23,18 +23,7 @@ namespace Spoty.View.SpotCategories
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> ledgesSpots = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Ledges)
-                        ledgesSpots.Add(spot);
-                }
-                ledgesListView.ItemsSource = ledgesSpots;
-            }
+            ledgesListView.ItemsSource = DummySpotsData.Read(SpotCategory.Ledges);
         }
 
         private void ledgesListView_ItemTapped(object sender, ItemTappedEventArgs e)

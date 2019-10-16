@@ -23,18 +23,7 @@ namespace Spoty.View.SpotCategories
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> otherSpots = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Others)
-                        otherSpots.Add(spot);
-                }
-                othersListView.ItemsSource = otherSpots;
-            }
+            othersListView.ItemsSource = DummySpotsData.Read(SpotCategory.Others);
         }
 
         private void othersListView_ItemTapped(object sender, ItemTappedEventArgs e)

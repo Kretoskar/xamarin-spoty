@@ -26,13 +26,8 @@ namespace Spoty.View
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                DisplayInMap(spots);
-                MoveMap();
-            }
+            DisplayInMap(DummySpotsData.Read());
+            MoveMap();
         }
 
         private void DisplayInMap(List<Spot> spots)

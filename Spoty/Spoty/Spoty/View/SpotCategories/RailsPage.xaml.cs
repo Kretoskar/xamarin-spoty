@@ -23,18 +23,7 @@ namespace Spoty.View.SpotCategories
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> railSpots = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Rails)
-                        railSpots.Add(spot);
-                }
-                railsListView.ItemsSource = railSpots;
-            }
+            railsListView.ItemsSource = DummySpotsData.Read(SpotCategory.Rails);
         }
 
         private void railsListView_ItemTapped(object sender, ItemTappedEventArgs e)

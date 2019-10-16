@@ -25,19 +25,6 @@ namespace Spoty.View
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            //string url = "";
-            //switch(Device.RuntimePlatform)
-            //{
-            //    case (Device.Android):
-            //        //url = String.Format("http://maps.google.com/maps?q={0}", address);
-            //        url = String.Format("http://maps.google.com/maps?q");
-            //        break;
-            //    default:
-            //        //IOS intent
-            //        break;
-
-            //}
-            //Device.OpenUri(new System.Uri(url));
             NavigateToClickedSpot();
         }
 

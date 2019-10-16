@@ -23,18 +23,7 @@ namespace Spoty.View.SpotCategories
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> gapPosts = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Gaps)
-                        gapPosts.Add(spot);
-                }
-                gapsListView.ItemsSource = gapPosts;
-            }
+            gapsListView.ItemsSource = DummySpotsData.Read(SpotCategory.Gaps);
         }
 
         private void gapsListView_ItemTapped(object sender, ItemTappedEventArgs e)
