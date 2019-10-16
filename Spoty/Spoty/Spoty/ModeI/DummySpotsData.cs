@@ -26,7 +26,7 @@ namespace Spoty.ModeI
                 Name = "Niebieska siódemka",
                 Categories = SpotCategory.Gaps,
                 Slug = "niebieska_siodemka.jpg",
-                ShortDesc = "7 schodów, handrail z dużym nachyleniem",
+                ShortDesc = "7 schodów, handrail",
                 LongDesc = "7 schodów, najazd z płytek, odjazd na kostkę. Handrail z dużym nachyleniem.",
                 Latitude = 50.042335f,
                 Longitude = 21.993306f
@@ -36,7 +36,7 @@ namespace Spoty.ModeI
                 Name = "Handrail Krakowska",
                 Categories = SpotCategory.Rails,
                 Slug = "handrail_krakowska.jpg",
-                ShortDesc = "Handrail z możliwością naskoku od boku.",
+                ShortDesc = "Handrail.",
                 LongDesc = "Handrail z możliwością naskoku od boku.",
                 Latitude = 50.045358f,
                 Longitude = 21.983674f
@@ -76,7 +76,7 @@ namespace Spoty.ModeI
                 Name = "Rura szpital lwowska",
                 Categories = SpotCategory.Rails,
                 Slug = "rura_szpital_lwowska.jpg",
-                ShortDesc = "Długi handrail z niskim, płaskim początkiem",
+                ShortDesc = "Długi handrail",
                 LongDesc = "Długi handrail z niskim, płskim początkiem.",
                 Latitude = 50.036849f,
                 Longitude = 22.033108f
@@ -368,7 +368,7 @@ namespace Spoty.ModeI
                 Name = "Filharmonia",
                 Categories = SpotCategory.Ledges,
                 Slug = "filharmonia.jpg",
-                ShortDesc = "Dobry flat, dużo murków i gap ze schodów",
+                ShortDesc = "Dobry flat, dużo murków, schody",
                 LongDesc = "Dobry flat, dużo murków i gap ze schodów",
                 Latitude = 50.033265f,
                 Longitude = 22.004590f
@@ -378,7 +378,7 @@ namespace Spoty.ModeI
                 Name = "Zielona budka schody",
                 Categories = SpotCategory.Gaps,
                 Slug = "zielona_budka_schody.jpg",
-                ShortDesc = "Schody, flat - kostka z dużymi przerwami",
+                ShortDesc = "Schody, flat - kostka",
                 LongDesc = "Schody, flat - kostka z dużymi przerwami",
                 Latitude = 50.029513f,
                 Longitude = 22.019197f
@@ -398,7 +398,7 @@ namespace Spoty.ModeI
                 Name = "Siedliska pumptrack",
                 Categories = SpotCategory.Others,
                 Slug = "siedliska_pumptrack.jpg",
-                ShortDesc = "Pumptrack z wytartą, dziurawą nawierzchnią",
+                ShortDesc = "Pumptrack z dziurawą nawierzchnią",
                 LongDesc = "Pumptrack z wytartą, dziurawą nawierzchnią",
                 Latitude = 49.950518f,
                 Longitude = 21.935890f
