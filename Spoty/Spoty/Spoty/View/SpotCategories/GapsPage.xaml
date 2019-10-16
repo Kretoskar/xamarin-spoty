@@ -19,10 +19,14 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
 
-                        <Image Source="{Binding Slug}"
-                               Grid.RowSpan="2"
-                               Aspect="AspectFit"
-                               Margin="5"/>
+                        <Frame Margin="5" 
+                               Padding="0" 
+                               BorderColor="Black" 
+                               BackgroundColor="Black" 
+                               Grid.RowSpan="2">
+                            <Image Source="{Binding Slug}"
+                               Aspect="Fill"/>
+                        </Frame>
                         <Label Grid.Column="1"
                                Text="{Binding Name}"
                                FontAttributes="Bold"
