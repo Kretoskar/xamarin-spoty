@@ -26,7 +26,7 @@ namespace Spoty.ModeI
                 Name = "Niebieska siódemka",
                 Categories = SpotCategory.Gaps,
                 Slug = "niebieska_siodemka.jpg",
-                ShortDesc = "7 schodów, handrail z dużym nachyleniem",
+                ShortDesc = "7 schodów, handrail",
                 LongDesc = "7 schodów, najazd z płytek, odjazd na kostkę. Handrail z dużym nachyleniem.",
                 Latitude = 50.042335f,
                 Longitude = 21.993306f
@@ -36,7 +36,7 @@ namespace Spoty.ModeI
                 Name = "Handrail Krakowska",
                 Categories = SpotCategory.Rails,
                 Slug = "handrail_krakowska.jpg",
-                ShortDesc = "Handrail z możliwością naskoku od boku.",
+                ShortDesc = "Handrail.",
                 LongDesc = "Handrail z możliwością naskoku od boku.",
                 Latitude = 50.045358f,
                 Longitude = 21.983674f
@@ -76,7 +76,7 @@ namespace Spoty.ModeI
                 Name = "Rura szpital lwowska",
                 Categories = SpotCategory.Rails,
                 Slug = "rura_szpital_lwowska.jpg",
-                ShortDesc = "Długi handrail z niskim, płaskim początkiem",
+                ShortDesc = "Długi handrail",
                 LongDesc = "Długi handrail z niskim, płskim początkiem.",
                 Latitude = 50.036849f,
                 Longitude = 22.033108f
@@ -163,7 +163,286 @@ namespace Spoty.ModeI
                 Latitude = 50.022950f,
                 Longitude = 21.986143f
             });
-
+            Spots.Add(new Spot
+            {
+                Name = "Fontanna przy wydziale muzyki",
+                Categories = SpotCategory.Ledges,
+                Slug = "fontanna_przy_wydziale_muzyki.jpg",
+                ShortDesc = "Kręcony manual pad, murek.",
+                LongDesc = "Kręcony manual pad, murek",
+                Latitude = 50.023118f,
+                Longitude = 21.985947f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Curby przy fracu",
+                Categories = SpotCategory.Ledges,
+                Slug = "curby_przy_fracu.jpg",
+                ShortDesc = "Krawężniki",
+                LongDesc = "Krawężniki, małe mureczki",
+                Latitude = 50.036590f,
+                Longitude = 22.022161f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Estrada rail",
+                Categories = SpotCategory.Rails,
+                Slug = "estrada_rail.jpg",
+                ShortDesc = "Rail na przypale",
+                LongDesc = "Szkło z kątownikiem",
+                Latitude = 50.037653f,
+                Longitude = 22.003856f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Marcel curb",
+                Categories = SpotCategory.Ledges,
+                Slug = "marcel_curb.jpg",
+                ShortDesc = "Curb z najazdem",
+                LongDesc = "Curb z najazdem/zjazdem przy parkingu autobusów",
+                Latitude = 50.041045f,
+                Longitude = 22.004407f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Grube raile Biedronka",
+                Categories = SpotCategory.Rails,
+                Slug = "grube_raile_biedronka.jpg",
+                ShortDesc = "Grube raile",
+                LongDesc = "Grube raile z zakrętami przy końcach",
+                Latitude = 50.044736f,
+                Longitude = 21.955498f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Drzewo do backflipów",
+                Categories = SpotCategory.Others,
+                Slug = "drzewo_do_backflipow.jpg",
+                ShortDesc = "Niech ktoś to zrobi",
+                LongDesc = "Heban dawaj flipa",
+                Latitude = 50.004010f,
+                Longitude = 22.031014f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Żółty rail",
+                Categories = SpotCategory.Rails,
+                Slug = "zolty_rail.jpg",
+                ShortDesc = "Nawierzchnia - kostka",
+                LongDesc = "Nawierzchnia - kostka",
+                Latitude = 50.020511f,
+                Longitude = 21.978449f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Barcelona Baranówka",
+                Categories = SpotCategory.Others,
+                Slug = "barcelona_baranowka.jpg",
+                ShortDesc = "Podjazdy, drop z raila",
+                LongDesc = "Betonowe podjazdy, drop z raila.",
+                Latitude = 50.051953f,
+                Longitude = 21.979836f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Pod wiaduktem drop",
+                Categories = SpotCategory.Others,
+                Slug = "pod_wiaduktem_drop.jpg",
+                ShortDesc = "Duży wąski drop",
+                LongDesc = "Duży, wąski drop z wiaduktu.",
+                Latitude = 50.042891f,
+                Longitude = 21.992379f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Łamany murek Targowa",
+                Categories = SpotCategory.Ledges,
+                Slug = "lamany_murek_targowa.jpg",
+                ShortDesc = "Łamany murek",
+                LongDesc = "Łamany murek z double setu.",
+                Latitude = 50.036836f,
+                Longitude = 22.009673f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Pod mostem",
+                Categories = SpotCategory.Others,
+                Slug = "pod_mostem.jpg",
+                ShortDesc = "Curb, flat, plastiki",
+                LongDesc = "Metalowy curb, betonowy flat i plastikowe ziomki",
+                Latitude = 50.030848f,
+                Longitude = 22.004050f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Mini rail delikatesy",
+                Categories = SpotCategory.Rails,
+                Slug = "mini_rail_delikatesy.jpg",
+                ShortDesc = "Mini rail, nawierzchnia - kostka",
+                LongDesc = "Mini rail. Trochę krzywy. Flat z koskti",
+                Latitude = 50.024473f,
+                Longitude = 22.045373f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Filharmonia rail",
+                Categories = SpotCategory.Rails,
+                Slug = "filharmonia_rail.jpg",
+                ShortDesc = "Zjazd na rail",
+                LongDesc = "Zjazd na kwadratowy rail. Odjazd z trawy",
+                Latitude = 50.033157f,
+                Longitude = 22.003826f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Zakręt curb",
+                Categories = SpotCategory.Ledges,
+                Slug = "zakret_curb.jpg",
+                ShortDesc = "Zakręcony curbik",
+                LongDesc = "Zakręcony curb, duże przerwy między klocami",
+                Latitude = 50.018774f,
+                Longitude = 22.005989f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Mini hubba",
+                Categories = SpotCategory.Ledges,
+                Slug = "mini_hubba.jpg",
+                ShortDesc = "Malutka hubba z krótkim najazdem",
+                LongDesc = "Malutka hubba z krótkim najazdem",
+                Latitude = 50.024253f,
+                Longitude = 22.017530f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Gap w zjazd",
+                Categories = SpotCategory.Gaps,
+                Slug = "gap_w_zjazd.jpg",
+                ShortDesc = "Gap nad schodkami w zjazd",
+                LongDesc = "Gap nad schodkami w zjazd. Nawierzchnia - kostka",
+                Latitude = 50.040631f,
+                Longitude = 22.001259f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Biała mini hubba",
+                Categories = SpotCategory.Ledges,
+                Slug = "biala_mini_hubba.jpg",
+                ShortDesc = "Mała hubba z płaskim końcem",
+                LongDesc = "Mała hubba z płaskim końcem. Flat - kostka",
+                Latitude = 50.040350f,
+                Longitude = 22.011407f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Zelwerowicza gap",
+                Categories = SpotCategory.Gaps,
+                Slug = "zelwerowicza_gap.jpg",
+                ShortDesc = "Gap ze ściany",
+                LongDesc = "Gap ze ściany. Odjazd na drugą ścianę, albo chodnik.",
+                Latitude = 50.000356f,
+                Longitude = 22.029967f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Pomnik czynu rewolucyjnego",
+                Categories = SpotCategory.Ledges,
+                Slug = "pomnik_czynu_rewolucyjnego.jpg",
+                ShortDesc = "Murki flat i w dół. Gap na chodnik",
+                LongDesc = "Murki flat i w dół. Gap na chodnik",
+                Latitude = 50.040591f,
+                Longitude = 21.999455f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Murki grz",
+                Categories = SpotCategory.Ledges,
+                Slug = "murki_grz.jpg",
+                ShortDesc = "Murki przy zjeździe",
+                LongDesc = "Murki przy zjeździe",
+                Latitude = 50.042296f,
+                Longitude = 21.999610f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Filharmonia",
+                Categories = SpotCategory.Ledges,
+                Slug = "filharmonia.jpg",
+                ShortDesc = "Dobry flat, dużo murków, schody",
+                LongDesc = "Dobry flat, dużo murków i gap ze schodów",
+                Latitude = 50.033265f,
+                Longitude = 22.004590f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Zielona budka schody",
+                Categories = SpotCategory.Gaps,
+                Slug = "zielona_budka_schody.jpg",
+                ShortDesc = "Schody, flat - kostka",
+                LongDesc = "Schody, flat - kostka z dużymi przerwami",
+                Latitude = 50.029513f,
+                Longitude = 22.019197f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "DGK",
+                Categories = SpotCategory.Gaps,
+                Slug = "dgk.jpg",
+                ShortDesc = "Gap nad kostką",
+                LongDesc = "Gap nad kostką",
+                Latitude = 50.039790f,
+                Longitude = 22.006536f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Siedliska pumptrack",
+                Categories = SpotCategory.Others,
+                Slug = "siedliska_pumptrack.jpg",
+                ShortDesc = "Pumptrack z dziurawą nawierzchnią",
+                LongDesc = "Pumptrack z wytartą, dziurawą nawierzchnią",
+                Latitude = 49.950518f,
+                Longitude = 21.935890f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Uniwersytet Rzeszowski",
+                Categories = SpotCategory.Ledges,
+                Slug = "uniwersytet_rzeszowski.jpg",
+                ShortDesc = "Murki, ławki, schodki",
+                LongDesc = "Murki, ławki schodki. Flat - odwrócona kostka",
+                Latitude = 50.030457f,
+                Longitude = 22.013783f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Skatepark",
+                Categories = SpotCategory.Others,
+                Slug = "skatepark.jpg",
+                ShortDesc = "Życie na streecie to nie rurki z kremem",
+                LongDesc = "Życie na streecie to nie rurki z kremem",
+                Latitude = 50.029311f,
+                Longitude = 22.002546f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Frac żółty rail",
+                Categories = SpotCategory.Rails,
+                Slug = "frac_zolty_rail.jpg",
+                ShortDesc = "Mini rail i gap nad nim.",
+                LongDesc = "Mini rail i gap nad nim.",
+                Latitude = 50.026135f,
+                Longitude = 22.017856f
+            });
+            Spots.Add(new Spot
+            {
+                Name = "Grind schodki frac",
+                Categories = SpotCategory.Ledges,
+                Slug = "grind_schodki_frac.jpg",
+                ShortDesc = "Schodki do grindowania.",
+                LongDesc = "Schodki do grindowania. Nawierzchnia - kostka",
+                Latitude = 50.026367f,
+                Longitude = 22.018329f
+            });
         }
     }
 }
