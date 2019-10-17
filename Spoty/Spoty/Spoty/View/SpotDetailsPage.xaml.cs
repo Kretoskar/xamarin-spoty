@@ -8,31 +8,23 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using Spoty.ViewModel;
 
 namespace Spoty.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SpotDetailsPage : ContentPage
     {
-        public Spot ClickedSpot { get; set; }
+        private SpotDetailsVM viewModel;
 
         public SpotDetailsPage(Spot spot)
         {
-            ClickedSpot = spot;
             InitializeComponent();
+
             stackLayout.BindingContext = spot;
-        }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            NavigateToClickedSpot();
-        }
-
-        public async Task NavigateToClickedSpot()
-        {
-            var location = new Location(ClickedSpot.Latitude, ClickedSpot.Longitude);
-            var options = new MapLaunchOptions { Name = ClickedSpot.Name, NavigationMode = NavigationMode.Driving };
-            await Map.OpenAsync(location, options);
+            viewModel = new SpotDetailsVM(spot);
+            navButton.BindingContext = viewModel;
         }
     }
 }
