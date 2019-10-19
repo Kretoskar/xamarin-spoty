@@ -5,7 +5,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Spoty.View.SpotCategories.LedgesPage">
-    <ListView x:Name="ledgesListView" RowHeight="70" ItemTapped="ledgesListView_ItemTapped">
+    <ListView x:Name="ledgesListView"
+              RowHeight="70" 
+              ItemTapped="ledgesListView_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -25,7 +27,7 @@
                                BackgroundColor="Black" 
                                Grid.RowSpan="2">
                             <Image Source="{Binding Slug}"
-                               Aspect="Fill"/>
+                                   Aspect="Fill"/>
                         </Frame>
                         <Label Grid.Column="1"
                                Text="{Binding Name}"

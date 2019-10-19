@@ -28,19 +28,7 @@ namespace Spoty
 
             DatabasaLocation = databaseLocation;
 
-            if (!File.Exists(DatabasaLocation))
-            {
-                using (SQLiteConnection conn = new SQLiteConnection(DatabasaLocation))
-                {
-                    DummySpotsData dummySpotsData = new DummySpotsData();
-                    foreach (Spot spot in dummySpotsData.Spots)
-                    {
-                        conn.CreateTable<Spot>();
-                        conn.Insert(spot);
-                    }
-                    string connstr = conn.ToString();
-                }
-            }
+            DummySpotsData.SetupDatabase();
         }
 
 

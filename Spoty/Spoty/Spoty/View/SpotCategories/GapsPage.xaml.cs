@@ -8,39 +8,32 @@ using Spoty.ModeI;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Spoty.ViewModel;
 
 namespace Spoty.View.SpotCategories
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GapsPage : ContentPage
     {
+        private SpotsListVM viewModel;
+
         public GapsPage()
         {
             InitializeComponent();
+
+            viewModel = new SpotsListVM();
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> gapPosts = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Gaps)
-                        gapPosts.Add(spot);
-                }
-                gapsListView.ItemsSource = gapPosts;
-            }
+            gapsListView.ItemsSource = viewModel.GetSpots(SpotCategory.Gaps);
         }
 
         private void gapsListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Spot spot = gapsListView.SelectedItem as Spot;
-            Navigation.PushModalAsync(new SpotDetailsPage(spot));
+            viewModel.GoToSpotDetail(spot);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Spoty.ModeI;
+using Spoty.ViewModel;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -14,33 +15,26 @@ namespace Spoty.View.SpotCategories
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OthersPage : ContentPage
     {
+        private SpotsListVM viewModel;
+
         public OthersPage()
         {
             InitializeComponent();
+
+            viewModel = new SpotsListVM();
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> otherSpots = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Others)
-                        otherSpots.Add(spot);
-                }
-                othersListView.ItemsSource = otherSpots;
-            }
+            othersListView.ItemsSource = viewModel.GetSpots(SpotCategory.Others);
         }
 
         private void othersListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Spot spot = othersListView.SelectedItem as Spot;
-            Navigation.PushModalAsync(new SpotDetailsPage(spot));
+            viewModel.GoToSpotDetail(spot);
         }
     }
 }

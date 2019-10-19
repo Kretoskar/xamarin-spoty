@@ -1,4 +1,5 @@
 ﻿using Spoty.ModeI;
+using Spoty.ViewModel;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -14,33 +15,26 @@ namespace Spoty.View.SpotCategories
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RailsPage : ContentPage
     {
+        private SpotsListVM viewModel;
+
         public RailsPage()
         {
             InitializeComponent();
+
+            viewModel = new SpotsListVM();
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasaLocation))
-            {
-                conn.CreateTable<Spot>();
-                var spots = conn.Table<Spot>().ToList();
-                List<Spot> railSpots = new List<Spot>();
-                foreach (Spot spot in spots)
-                {
-                    if (spot.Categories == SpotCategory.Rails)
-                        railSpots.Add(spot);
-                }
-                railsListView.ItemsSource = railSpots;
-            }
+            railsListView.ItemsSource = viewModel.GetSpots(SpotCategory.Rails);
         }
 
         private void railsListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Spot spot = railsListView.SelectedItem as Spot;
-            Navigation.PushModalAsync(new SpotDetailsPage(spot));
+            viewModel.GoToSpotDetail(spot);
         }
     }
 }
