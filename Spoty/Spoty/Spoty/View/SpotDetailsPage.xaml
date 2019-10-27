@@ -13,9 +13,9 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
+                <RowDefinition Height="70"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="150"/>
+                <RowDefinition Height="200"/>
             </Grid.RowDefinitions>
             <Label Text="{Binding Name}"
                    BackgroundColor="{StaticResource spotDetailsFrames}"
@@ -36,10 +36,9 @@
                    Grid.Row="2" 
                    BackgroundColor="{StaticResource spotDetailsFrames}"
                    Grid.ColumnSpan="2"
-                   BorderColor="Black"
                    CornerRadius="10">
                 <Label Text="{Binding LongDesc}"
-                   FontSize="16"
+                   FontSize="20"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    TextColor="White"/>
