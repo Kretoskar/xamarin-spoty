@@ -7,11 +7,12 @@
              x:Class="Spoty.View.SpotCategories.RailsPage">
     <ListView x:Name="railsListView"
               RowHeight="70" 
-              ItemTapped="railsListView_ItemTapped">
+              ItemTapped="railsListView_ItemTapped"
+              BackgroundColor="{StaticResource backgroundColor}">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid BackgroundColor="{StaticResource backgroundColor}">
+                    <Grid BackgroundColor="{StaticResource spotDetailsFrames}">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"/>
                             <ColumnDefinition Width="*"/>
@@ -33,11 +34,13 @@
                                Text="{Binding Name}"
                                FontAttributes="Bold"
                                FontSize="16"
-                               Margin="5,5,5,0"/>
+                               Margin="5,5,5,0"
+                               TextColor="White"/>
                         <Label Grid.Column="1"
                                Grid.Row="1"
                                Text="{Binding ShortDesc}"
-                               Margin="5,0,5,5"/>
+                               Margin="5,0,5,5"
+                               TextColor="White"/>
                     </Grid>
                 </ViewCell>
             </DataTemplate>

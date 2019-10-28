@@ -445,6 +445,16 @@ namespace Spoty.ModeI
                 Latitude = 50.026367f,
                 Longitude = 22.018329f
             });
+            Spots.Add(new Spot
+            {
+                Name = "Happy jump wall",
+                Categories = SpotCategory.Others,
+                Slug = "happy_jump_wall.jpg",
+                ShortDesc = "Wall ze schodów.",
+                LongDesc = "Wall z małym nachyleniem wzdłuż schodów.",
+                Latitude = 50.054243f,
+                Longitude = 21.991297f
+            });
         }
 
         public static void SetupDatabase()

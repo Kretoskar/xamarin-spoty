@@ -10,7 +10,7 @@ namespace Spoty.ViewModel
     {
         private const float rzeszowLatitude = 50.041187f;
         private const float rzeszowLongitude = 21.999121f;
-        private const float mapSpan = .2f;
+        private const float mapSpan = .21f;
         private Map map;
         public MapVM (Map map)
         {

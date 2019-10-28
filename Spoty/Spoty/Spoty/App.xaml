@@ -7,10 +7,10 @@
              x:Class="Spoty.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="backgroundColor">#bd8700</Color>
-            <Color x:Key="detailsBackgroundColor">#363535</Color>
-            <Color x:Key="spotDetailsFrames">#bd8700</Color>
-            <Color x:Key="spotDetailsMapButton">#03b800</Color>
+            <Color x:Key="backgroundColor">#121212</Color>
+            <Color x:Key="detailsBackgroundColor">#121212</Color>
+            <Color x:Key="spotDetailsFrames">#33ffffff</Color>
+            <Color x:Key="spotDetailsMapButton">#a16e00</Color>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
