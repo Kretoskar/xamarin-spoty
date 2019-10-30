@@ -10,7 +10,7 @@
             <Color x:Key="backgroundColor">#121212</Color>
             <Color x:Key="detailsBackgroundColor">#121212</Color>
             <Color x:Key="spotDetailsFrames">#33ffffff</Color>
-            <Color x:Key="spotDetailsMapButton">#a16e00</Color>
+            <Color x:Key="spotDetailsMapButton">#ffffff</Color>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
