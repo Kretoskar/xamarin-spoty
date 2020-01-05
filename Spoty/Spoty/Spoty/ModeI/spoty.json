@@ -1,0 +1,443 @@
+[
+  {
+    "Id": 0,
+    "Name": "Pomnik mickiewicza",
+    "Slug": "pomnik_mickiewicza.jpg",
+    "ShortDesc": "Schody, krawê¿niki i murek",
+    "LongDesc": "Schody 1- 4, nawoskowany krawê¿nik i marmurowy murek. Nawierzchnia - marmurowe p³yty",
+    "Latitude": 50.03748,
+    "Longitude": 22.0090561,
+    "Categories": 0
+  },
+  {
+    "Id": 1,
+    "Name": "Niebieska siódemka",
+    "Slug": "niebieska_siodemka.jpg",
+    "ShortDesc": "7 schodów, handrail",
+    "LongDesc": "7 schodów, najazd z p³ytek, odjazd na kostkê. Handrail z du¿ym nachyleniem.",
+    "Latitude": 50.0423355,
+    "Longitude": 21.9933052,
+    "Categories": 0
+  },
+  {
+    "Id": 2,
+    "Name": "Handrail Krakowska",
+    "Slug": "handrail_krakowska.jpg",
+    "ShortDesc": "Handrail.",
+    "LongDesc": "Handrail z mo¿liwoœci¹ naskoku od boku.",
+    "Latitude": 50.0453568,
+    "Longitude": 21.9836731,
+    "Categories": 2
+  },
+  {
+    "Id": 3,
+    "Name": "Park inwalidów wojennych",
+    "Slug": "park_inwalidow_wojennych.jpg",
+    "ShortDesc": "Betonowe fale, hubby",
+    "LongDesc": "Betonowe, w¹skie fale. Hubby na obie strony z najazdem z kostki.",
+    "Latitude": 50.0220642,
+    "Longitude": 21.9870758,
+    "Categories": 3
+  },
+  {
+    "Id": 4,
+    "Name": "3 maja",
+    "Slug": "trzy_maja.jpg",
+    "ShortDesc": "Betonowe murki, dobry flat",
+    "LongDesc": "Betonowe murki z drewnian¹ ³awk¹, kicker na koñcu. Dobry flat",
+    "Latitude": 50.0359344,
+    "Longitude": 22.0010262,
+    "Categories": 1
+  },
+  {
+    "Id": 5,
+    "Name": "Pomnik Pi³sudskiego",
+    "Slug": "pomnik_pilsudskiego.jpg",
+    "ShortDesc": "Marmurowy murek",
+    "LongDesc": "Marmurowy murek",
+    "Latitude": 50.03947,
+    "Longitude": 22.0086365,
+    "Categories": 1
+  },
+  {
+    "Id": 6,
+    "Name": "Rura szpital lwowska",
+    "Slug": "rura_szpital_lwowska.jpg",
+    "ShortDesc": "D³ugi handrail",
+    "LongDesc": "D³ugi handrail z niskim, p³skim pocz¹tkiem.",
+    "Latitude": 50.03685,
+    "Longitude": 22.0331078,
+    "Categories": 2
+  },
+  {
+    "Id": 7,
+    "Name": "Metalowa ³awka Hartbex",
+    "Slug": "metalowa_lawka_hartbex.jpg",
+    "ShortDesc": "Metalowa ³awka",
+    "LongDesc": "Metalowa ³awka.",
+    "Latitude": 50.02964,
+    "Longitude": 22.00824,
+    "Categories": 1
+  },
+  {
+    "Id": 8,
+    "Name": "£amany murek",
+    "Slug": "lamany_murek.jpg",
+    "ShortDesc": "D³ugi, ³amany murek",
+    "LongDesc": "D³ugi, ³amany murek z du¿ym nachyleniem. Najazd i odjazd z kostki",
+    "Latitude": 50.04852,
+    "Longitude": 21.9784546,
+    "Categories": 1
+  },
+  {
+    "Id": 9,
+    "Name": "Murek UR",
+    "Slug": "murek_ur.jpg",
+    "ShortDesc": "Betonowy murek",
+    "LongDesc": "Betonowy murek, nawierzchnia - kostka.",
+    "Latitude": 50.0365944,
+    "Longitude": 22.0385113,
+    "Categories": 1
+  },
+  {
+    "Id": 10,
+    "Name": "Frac murek w górê",
+    "Slug": "frac_murek_w_gore.jpg",
+    "ShortDesc": "Murek z aluminiowym k¹townikiem.",
+    "LongDesc": "Murek w górê z aluminiowym, wgniatj¹cym siê k¹townikiem.",
+    "Latitude": 50.0209732,
+    "Longitude": 22.0109558,
+    "Categories": 1
+  },
+  {
+    "Id": 11,
+    "Name": "Nowy œwiat gap",
+    "Slug": "nowy_swiat_gap.jpg",
+    "ShortDesc": "Gap z dachu jakiejœ budy.",
+    "LongDesc": "Gap z dachu jakiejœ budy. Skok nad railem, odjazd na kostkê",
+    "Latitude": 50.0489426,
+    "Longitude": 21.9777679,
+    "Categories": 0
+  },
+  {
+    "Id": 12,
+    "Name": "£amany murek Odrzykoñska",
+    "Slug": "lamany_murek_odrzykonska.jpg",
+    "ShortDesc": "Harpagan murek.",
+    "LongDesc": "Hapagañski murek, najazd i odjazd - kostka.",
+    "Latitude": 50.04695,
+    "Longitude": 21.9514275,
+    "Categories": 1
+  },
+  {
+    "Id": 13,
+    "Name": "Teatr maska",
+    "Slug": "teatr_maska.jpg",
+    "ShortDesc": "Murek przy teatrze maska.",
+    "LongDesc": "Murek przy teatrze maska, najazd i odjazd - kostka.",
+    "Latitude": 50.0378761,
+    "Longitude": 22.0068226,
+    "Categories": 1
+  },
+  {
+    "Id": 14,
+    "Name": "Wydzia³ muzyki UR",
+    "Slug": "wydzial_muzyki_ur.jpg",
+    "ShortDesc": "Schodki, gapy, murki.",
+    "LongDesc": "Schodki, gapy, wysokie handraile i niskie murki",
+    "Latitude": 50.02295,
+    "Longitude": 21.9861431,
+    "Categories": 0
+  },
+  {
+    "Id": 15,
+    "Name": "Fontanna przy wydziale muzyki",
+    "Slug": "fontanna_przy_wydziale_muzyki.jpg",
+    "ShortDesc": "Krêcony manual pad, murek.",
+    "LongDesc": "Krêcony manual pad, murek",
+    "Latitude": 50.0231171,
+    "Longitude": 21.9859467,
+    "Categories": 1
+  },
+  {
+    "Id": 16,
+    "Name": "Curby przy fracu",
+    "Slug": "curby_przy_fracu.jpg",
+    "ShortDesc": "Krawê¿niki",
+    "LongDesc": "Krawê¿niki, ma³e mureczki",
+    "Latitude": 50.03659,
+    "Longitude": 22.0221615,
+    "Categories": 1
+  },
+  {
+    "Id": 17,
+    "Name": "Estrada rail",
+    "Slug": "estrada_rail.jpg",
+    "ShortDesc": "Rail na przypale",
+    "LongDesc": "Szk³o z k¹townikiem",
+    "Latitude": 50.0376549,
+    "Longitude": 22.0038567,
+    "Categories": 2
+  },
+  {
+    "Id": 18,
+    "Name": "Marcel curb",
+    "Slug": "marcel_curb.jpg",
+    "ShortDesc": "Curb z najazdem",
+    "LongDesc": "Curb z najazdem/zjazdem przy parkingu autobusów",
+    "Latitude": 50.0410461,
+    "Longitude": 22.0044079,
+    "Categories": 1
+  },
+  {
+    "Id": 19,
+    "Name": "Grube raile Biedronka",
+    "Slug": "grube_raile_biedronka.jpg",
+    "ShortDesc": "Grube raile",
+    "LongDesc": "Grube raile z zakrêtami przy koñcach",
+    "Latitude": 50.044735,
+    "Longitude": 21.9554977,
+    "Categories": 2
+  },
+  {
+    "Id": 20,
+    "Name": "Drzewo do backflipów",
+    "Slug": "drzewo_do_backflipow.jpg",
+    "ShortDesc": "Niech ktoœ to zrobi",
+    "LongDesc": "Heban dawaj flipa",
+    "Latitude": 50.00401,
+    "Longitude": 22.0310135,
+    "Categories": 3
+  },
+  {
+    "Id": 21,
+    "Name": "¯ó³ty rail",
+    "Slug": "zolty_rail.jpg",
+    "ShortDesc": "Nawierzchnia - kostka",
+    "LongDesc": "Nawierzchnia - kostka",
+    "Latitude": 50.02051,
+    "Longitude": 21.9784489,
+    "Categories": 2
+  },
+  {
+    "Id": 22,
+    "Name": "Barcelona Baranówka",
+    "Slug": "barcelona_baranowka.jpg",
+    "ShortDesc": "Podjazdy, drop z raila",
+    "LongDesc": "Betonowe podjazdy, drop z raila.",
+    "Latitude": 50.0519524,
+    "Longitude": 21.9798355,
+    "Categories": 3
+  },
+  {
+    "Id": 23,
+    "Name": "Pod wiaduktem drop",
+    "Slug": "pod_wiaduktem_drop.jpg",
+    "ShortDesc": "Du¿y w¹ski drop",
+    "LongDesc": "Du¿y, w¹ski drop z wiaduktu.",
+    "Latitude": 50.0428925,
+    "Longitude": 21.9923782,
+    "Categories": 3
+  },
+  {
+    "Id": 24,
+    "Name": "£amany murek Targowa",
+    "Slug": "lamany_murek_targowa.jpg",
+    "ShortDesc": "£amany murek",
+    "LongDesc": "£amany murek z double setu.",
+    "Latitude": 50.0368347,
+    "Longitude": 22.0096722,
+    "Categories": 1
+  },
+  {
+    "Id": 25,
+    "Name": "Pod mostem",
+    "Slug": "pod_mostem.jpg",
+    "ShortDesc": "Curb, flat, plastiki",
+    "LongDesc": "Metalowy curb, betonowy flat i plastikowe ziomki",
+    "Latitude": 50.03085,
+    "Longitude": 22.00405,
+    "Categories": 3
+  },
+  {
+    "Id": 26,
+    "Name": "Mini rail delikatesy",
+    "Slug": "mini_rail_delikatesy.jpg",
+    "ShortDesc": "Mini rail, nawierzchnia - kostka",
+    "LongDesc": "Mini rail. Trochê krzywy. Flat z koskti",
+    "Latitude": 50.02447,
+    "Longitude": 22.0453739,
+    "Categories": 2
+  },
+  {
+    "Id": 27,
+    "Name": "Filharmonia rail",
+    "Slug": "filharmonia_rail.jpg",
+    "ShortDesc": "Zjazd na rail",
+    "LongDesc": "Zjazd na kwadratowy rail. Odjazd z trawy",
+    "Latitude": 50.0331573,
+    "Longitude": 22.0038261,
+    "Categories": 2
+  },
+  {
+    "Id": 28,
+    "Name": "Zakrêt curb",
+    "Slug": "zakret_curb.jpg",
+    "ShortDesc": "Zakrêcony curbik",
+    "LongDesc": "Zakrêcony curb, du¿e przerwy miêdzy klocami",
+    "Latitude": 50.0187721,
+    "Longitude": 22.00599,
+    "Categories": 1
+  },
+  {
+    "Id": 29,
+    "Name": "Mini hubba",
+    "Slug": "mini_hubba.jpg",
+    "ShortDesc": "Malutka hubba z krótkim najazdem",
+    "LongDesc": "Malutka hubba z krótkim najazdem",
+    "Latitude": 50.0242538,
+    "Longitude": 22.01753,
+    "Categories": 1
+  },
+  {
+    "Id": 30,
+    "Name": "Gap w zjazd",
+    "Slug": "gap_w_zjazd.jpg",
+    "ShortDesc": "Gap nad schodkami w zjazd",
+    "LongDesc": "Gap nad schodkami w zjazd. Nawierzchnia - kostka",
+    "Latitude": 50.04063,
+    "Longitude": 22.0012589,
+    "Categories": 0
+  },
+  {
+    "Id": 31,
+    "Name": "Bia³a mini hubba",
+    "Slug": "biala_mini_hubba.jpg",
+    "ShortDesc": "Ma³a hubba z p³askim koñcem",
+    "LongDesc": "Ma³a hubba z p³askim koñcem. Flat - kostka",
+    "Latitude": 50.04035,
+    "Longitude": 22.0114079,
+    "Categories": 1
+  },
+  {
+    "Id": 32,
+    "Name": "Zelwerowicza gap",
+    "Slug": "zelwerowicza_gap.jpg",
+    "ShortDesc": "Gap ze œciany",
+    "LongDesc": "Gap ze œciany. Odjazd na drug¹ œcianê, albo chodnik.",
+    "Latitude": 50.0003548,
+    "Longitude": 22.0299664,
+    "Categories": 0
+  },
+  {
+    "Id": 33,
+    "Name": "Pomnik czynu rewolucyjnego",
+    "Slug": "pomnik_czynu_rewolucyjnego.jpg",
+    "ShortDesc": "Murki flat i w dó³. Gap na chodnik",
+    "LongDesc": "Murki flat i w dó³. Gap na chodnik",
+    "Latitude": 50.0405922,
+    "Longitude": 21.9994545,
+    "Categories": 1
+  },
+  {
+    "Id": 34,
+    "Name": "Murki grz",
+    "Slug": "murki_grz.jpg",
+    "ShortDesc": "Murki przy zjeŸdzie",
+    "LongDesc": "Murki przy zjeŸdzie",
+    "Latitude": 50.0422974,
+    "Longitude": 21.99961,
+    "Categories": 1
+  },
+  {
+    "Id": 35,
+    "Name": "Filharmonia",
+    "Slug": "filharmonia.jpg",
+    "ShortDesc": "Dobry flat, du¿o murków, schody",
+    "LongDesc": "Dobry flat, du¿o murków i gap ze schodów",
+    "Latitude": 50.0332642,
+    "Longitude": 22.00459,
+    "Categories": 1
+  },
+  {
+    "Id": 36,
+    "Name": "Zielona budka schody",
+    "Slug": "zielona_budka_schody.jpg",
+    "ShortDesc": "Schody, flat - kostka",
+    "LongDesc": "Schody, flat - kostka z du¿ymi przerwami",
+    "Latitude": 50.0295143,
+    "Longitude": 22.0191975,
+    "Categories": 0
+  },
+  {
+    "Id": 37,
+    "Name": "DGK",
+    "Slug": "dgk.jpg",
+    "ShortDesc": "Gap nad kostk¹",
+    "LongDesc": "Gap nad kostk¹",
+    "Latitude": 50.03979,
+    "Longitude": 22.0065365,
+    "Categories": 0
+  },
+  {
+    "Id": 38,
+    "Name": "Siedliska pumptrack",
+    "Slug": "siedliska_pumptrack.jpg",
+    "ShortDesc": "Pumptrack z dziuraw¹ nawierzchni¹",
+    "LongDesc": "Pumptrack z wytart¹, dziuraw¹ nawierzchni¹",
+    "Latitude": 49.95052,
+    "Longitude": 21.93589,
+    "Categories": 3
+  },
+  {
+    "Id": 39,
+    "Name": "Uniwersytet Rzeszowski",
+    "Slug": "uniwersytet_rzeszowski.jpg",
+    "ShortDesc": "Murki, ³awki, schodki",
+    "LongDesc": "Murki, ³awki schodki. Flat - odwrócona kostka",
+    "Latitude": 50.0304565,
+    "Longitude": 22.0137825,
+    "Categories": 1
+  },
+  {
+    "Id": 40,
+    "Name": "Skatepark",
+    "Slug": "skatepark.jpg",
+    "ShortDesc": "¯ycie na streecie to nie rurki z kremem",
+    "LongDesc": "¯ycie na streecie to nie rurki z kremem",
+    "Latitude": 50.0293121,
+    "Longitude": 22.0025463,
+    "Categories": 3
+  },
+  {
+    "Id": 41,
+    "Name": "Frac ¿ó³ty rail",
+    "Slug": "frac_zolty_rail.jpg",
+    "ShortDesc": "Mini rail i gap nad nim.",
+    "LongDesc": "Mini rail i gap nad nim.",
+    "Latitude": 50.0261345,
+    "Longitude": 22.0178566,
+    "Categories": 2
+  },
+  {
+    "Id": 42,
+    "Name": "Grind schodki frac",
+    "Slug": "grind_schodki_frac.jpg",
+    "ShortDesc": "Schodki do grindowania.",
+    "LongDesc": "Schodki do grindowania. Nawierzchnia - kostka",
+    "Latitude": 50.0263672,
+    "Longitude": 22.01833,
+    "Categories": 1
+  },
+  {
+    "Id": 43,
+    "Name": "Happy jump wall",
+    "Slug": "happy_jump_wall.jpg",
+    "ShortDesc": "Wall ze schodów.",
+    "LongDesc": "Wall z ma³ym nachyleniem wzd³u¿ schodów.",
+    "Latitude": 50.05424,
+    "Longitude": 21.9912968,
+    "Categories": 3
+  }
+]
+
